@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    width: 250px;
+    margin: 20vh auto 0 auto;
+    text-align: center;
+    border: 1px solid #c9c9c9;
+}
+.container-links{
+    list-style: none;
+}
+.container-links li {
+   border-top: 1px solid #c9c9c9;
+}
+.logo{
+    padding: 15px 0;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.container-links li a{
+    text-decoration: none;
+    color: #424242;
+    display: block;
+    padding: 10px 0;
+}
+.container-links li a:hover{
+    background-color: black;
+    color: #fff;
+}
